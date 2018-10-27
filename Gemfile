@@ -72,8 +72,8 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Use rspec testing framework
 gem 'rspec-rails', '~> 3.6'
 # Use factory_girl for adding data
-gem 'factory_girl_rails'
-# 
+gem 'factory_bot'
+
 gem 'rails-controller-testing'
 gem 'headless'
 gem 'poltergeist'
