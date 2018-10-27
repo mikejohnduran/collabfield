@@ -68,3 +68,14 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Use rspec testing framework
+gem 'rspec-rails', '~> 3.6'
+# Use factory_girl for adding data
+gem 'factory_girl_rails'
+# 
+gem 'rails-controller-testing'
+gem 'headless'
+gem 'poltergeist'
+gem 'database_cleaner'
+gem 'faker'
